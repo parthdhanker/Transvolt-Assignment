@@ -3,7 +3,7 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-DATA_DIR = Path(os.getenv("DATA_DIR", str(BASE_DIR)))
+DATA_DIR = Path(os.getenv("DATA_DIR", str(BASE_DIR / "data")))
 MODELS_DIR = Path(os.getenv("MODELS_DIR", str(BASE_DIR / "saved_models")))
 
 DEMAND_CSV = DATA_DIR / "demand.csv"

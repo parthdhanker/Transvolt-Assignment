@@ -123,7 +123,7 @@ def forecast_lgbm(
     for h in range(1, HORIZON + 1):
         sess = LGBM_SESSIONS[h]
         X = _build_row(sku, supermarket, ref_week, h, is_promo[h - 1], history)
-        p = sess.run(None, {sess.get_inputs()[0].name: X})[0][0]
+        p = np.asarray(sess.run(None, {sess.get_inputs()[0].name: X})[0]).ravel()[0]
         preds.append(round(max(0.0, float(p)), 2))
 
     return preds
