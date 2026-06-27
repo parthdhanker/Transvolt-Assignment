@@ -1,0 +1,31 @@
+{
+  "feature_cols": [
+    "is_promo",
+    "month",
+    "year",
+    "week_of_year",
+    "quarter",
+    "t_idx",
+    "lag_4",
+    "lag_8",
+    "lag_13",
+    "lag_26",
+    "lag_52",
+    "roll_mean_4",
+    "roll_std_4",
+    "roll_mean_8",
+    "roll_std_8",
+    "roll_mean_13",
+    "roll_std_13",
+    "sku_Free Range Eggs",
+    "sku_Organic Milk",
+    "sku_Whole Wheat Bread",
+    "supermarket_DailyNeeds",
+    "supermarket_FreshMart",
+    "supermarket_GreenBasket"
+  ],
+  "horizon": 8,
+  "model_type": "lightgbm_direct_multistep",
+  "metric": "WAPE",
+  "wape": 0.0934
+}

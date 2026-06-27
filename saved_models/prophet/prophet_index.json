@@ -1,0 +1,11 @@
+{
+  "Free_Range_Eggs__DailyNeeds": "saved_models/prophet/prophet_Free_Range_Eggs__DailyNeeds.pkl",
+  "Free_Range_Eggs__FreshMart": "saved_models/prophet/prophet_Free_Range_Eggs__FreshMart.pkl",
+  "Free_Range_Eggs__GreenBasket": "saved_models/prophet/prophet_Free_Range_Eggs__GreenBasket.pkl",
+  "Organic_Milk__DailyNeeds": "saved_models/prophet/prophet_Organic_Milk__DailyNeeds.pkl",
+  "Organic_Milk__FreshMart": "saved_models/prophet/prophet_Organic_Milk__FreshMart.pkl",
+  "Organic_Milk__GreenBasket": "saved_models/prophet/prophet_Organic_Milk__GreenBasket.pkl",
+  "Whole_Wheat_Bread__DailyNeeds": "saved_models/prophet/prophet_Whole_Wheat_Bread__DailyNeeds.pkl",
+  "Whole_Wheat_Bread__FreshMart": "saved_models/prophet/prophet_Whole_Wheat_Bread__FreshMart.pkl",
+  "Whole_Wheat_Bread__GreenBasket": "saved_models/prophet/prophet_Whole_Wheat_Bread__GreenBasket.pkl"
+}

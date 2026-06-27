@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+*.onnx
+*.pkl
+demand.csv
+promotions.csv
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.db
